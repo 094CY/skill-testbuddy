@@ -1,0 +1,51 @@
+Skill-TestBuddy Non-Commercial Research License
+Skill-TestBuddy 非商业研究与学习许可
+
+Copyright (c) 2026 094CY (https://github.com/094CY)
+
+本许可不是 OSI 认证的开源软件许可，而是一份「内容可见、限用途」的授权：
+允许下载、阅读与在智能体中使用本技能，允许为学习、研究和非商业性技术交流而修改与分享；
+不允许任何商业性使用。
+
+────────────────────────────────────────────────────────────
+一、允许（以下行为均须为非商业目的）
+
+1. 下载、阅读本仓库的全部内容，并在支持 Agent Skills 的客户端中加载使用。
+2. 为个人学习、技术研究、教学演示、非商业性技术交流而修改内容。
+3. 在非商业前提下复制并向他人分享原版或修改后的版本，
+   前提是完整保留本许可文件、版权声明与用途声明。
+
+────────────────────────────────────────────────────────────
+二、禁止
+
+1. 任何商业性使用，包括但不限于：
+   - 将本技能或其衍生作品用于销售、租赁、订阅、收费服务或广告变现；
+   - 将本技能集成进商业产品、企业内部商业运营或对外提供的托管服务；
+   - 以本技能为基础向他人提供收费部署、代搭建或技术支持。
+2. 移除或淡化本文件中的用途限制、版权声明与免责声明。
+3. 将本技能用于任何违反适用法律法规或侵犯第三方合法权益的用途。
+
+如需商业使用，必须事先获得权利人的单独书面授权。本许可不授予该授权。
+
+────────────────────────────────────────────────────────────
+三、第三方内容与外部服务
+
+本仓库不包含任何外部服务的密钥、账号或凭据。文中出现的平台、产品与规范名称均为公开信息，
+仅作为评测标准与方法论的讨论对象，不代表任何隶属、授权或背书关系。所引用的规范会随时间更新，
+使用者应自行核实并独立承担使用风险与责任。
+
+────────────────────────────────────────────────────────────
+四、免责声明
+
+本技能按「现状」提供，不附带任何明示或默示的保证，包括但不限于对适用性、
+准确性、可用性与不侵权的保证。作者不对使用本技能产生的任何直接或间接损失承担责任。
+
+────────────────────────────────────────────────────────────
+English summary
+
+This is a source-available, non-commercial license, not an OSI-approved
+open-source license. You may download, read, use, modify and share this skill
+for personal learning, research and non-commercial technical exchange only.
+Any commercial use is prohibited without separate prior written permission.
+No API keys or third-party credentials are included.
+THE CONTENT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.

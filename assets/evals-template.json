@@ -1,0 +1,36 @@
+{
+  "skill": "被测技能名",
+  "trigger_cases": [
+    {"query": "用户会怎么说（口语、带细节、不提技能名）", "should_trigger": true, "note": "主路径"},
+    {"query": "换一种说法或只说结果", "should_trigger": true, "note": "改写"},
+    {"query": "话题相近但不该由本技能处理的请求", "should_trigger": false, "note": "近似误触"},
+    {"query": "可能同时命中本技能和另一个技能的请求", "should_trigger": true, "note": "撞车，写明应由谁处理"}
+  ],
+  "eval_cases": [
+    {
+      "id": "E1",
+      "query": "主路径任务",
+      "files": [],
+      "assertions": [
+        "产出文件已生成且位置、命名符合技能约定",
+        "包含输入中的全部必需要素",
+        "没有出现输入中不存在的数字或事实"
+      ],
+      "human_review": ["主观维度写在这里，由人评审"]
+    },
+    {
+      "id": "E2",
+      "query": "边界情况：关键信息缺失",
+      "files": [],
+      "assertions": ["没有编造缺失信息", "缺失项被明确标出或向用户提问"],
+      "human_review": []
+    },
+    {
+      "id": "E3",
+      "query": "用户真实碰到过的难点",
+      "files": [],
+      "assertions": [],
+      "human_review": []
+    }
+  ]
+}
